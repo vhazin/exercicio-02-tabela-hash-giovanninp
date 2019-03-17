@@ -1,11 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct Node{
-    int value;
-    struct Node *next;
-}node;
-
 typedef struct Element{
     int modelValue;
     int value;
